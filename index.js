@@ -61,7 +61,7 @@ function total() {
     var total = 0;
     
      for(var i=0;i<cart.length;i++) {
-        total += getCart()[i][Object.keys(cart[i])];
+    //    total += getCart()[i][Object.keys(cart[i])];
    } 
    
   
