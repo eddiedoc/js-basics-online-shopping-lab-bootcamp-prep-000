@@ -72,7 +72,7 @@ function removeFromCart(item) {
   // write your code here
   for (var i = 0;i<cart.length;i++) {
     if (Object.keys(getCart()[i][0]) === item)
-      getCart().splice(i,1);
+      cart.splice(i,1);
   }
  // Object.keys(getCart()[0])[0]
 }
