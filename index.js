@@ -71,10 +71,10 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   for (var i = 0;i<cart.length;i++) {
-    if (Object.keys(getCart()[i][0]) === item)
+    if (Object.keys(getCart()[i])[0] === item)
       cart.splice(i,1);
   }
- // Object.keys(getCart()[0])[0]
+
 }
 
 function placeOrder(cardNumber) {
