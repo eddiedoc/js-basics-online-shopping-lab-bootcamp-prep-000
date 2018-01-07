@@ -51,7 +51,7 @@ function viewCart() {
       else
         content +=".";
     }
-    console.log(0);
+    console.log('0');
     
   }
 }
