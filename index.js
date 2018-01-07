@@ -41,23 +41,19 @@ function viewCart() {
     console.log(`In your cart, you have ${keys[0]} at $${getCart()[0][keys[0]]} and ${keys[1]} at $${getCart()[1][keys[1]]}.`);
   }
   
-      if (cart.length === 3) {
-      
-    console.log(`In your cart, you have ${keys[0]} at $${getCart()[0][keys[0]]} and ${keys[1]} at $${getCart()[1][keys[1]]}.`);
-  }
 
- /* if (cart.length >= 3) {
+  if (cart.length >= 3) {
     var content = "In your cart, you have ";
     for (var j = 0;j<cart.length;j++) {
       content += `${keys[j]} at $${getCart()[j][keys[j]]}`;
-      if (j === cart.length-1)
+      if (j === cart.length-2)
         content += ".";
       else
         content +=", ";
     }
     console.log("content");
     
-  }*/
+  }
 }
 
 function total() {
