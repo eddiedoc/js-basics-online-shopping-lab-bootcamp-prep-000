@@ -46,12 +46,12 @@ function viewCart() {
     var content = "In your cart, you have ";
     for (var j = 0;j<=cart.length-1;j++) {
       content += `${keys[j]} at $${getCart()[j][keys[j]]}`;
-      if (j === cart.length-1)
-        content += ".";
+      if (j !== cart.length-1)
+        content += ", ";
       else
-        content +=", ";
+        content +=".";
     }
-    alert("content");
+    console.log("content");
     
   }
 }
