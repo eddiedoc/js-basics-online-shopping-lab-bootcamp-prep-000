@@ -50,7 +50,7 @@ function viewCart() {
       else
         content +=", ";
     }
-    console.log(content);
+    console.log("test");
     
   }
 }
