@@ -48,6 +48,8 @@ function viewCart() {
       content += `${keys[j]} at $${getCart()[j][keys[j]]}`;
       if (j !== cart.length-1)
         content += ", ";
+      else if (j === cart.length-2)
+        content +=", and ";
       else
         content +=".";
     }
